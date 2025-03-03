@@ -56,7 +56,4 @@ sns.scatterplot(x='value_eur', y='potential', data=df)
 st.pyplot(plt)
 st.markdown('El gráfico scatter refleja cómo el valor económico de un jugador (en euros) se relaciona con su potencial.')
 
-# Actualización de datos
-st.sidebar.header('Actualizar Datos')
-if st.sidebar.button('Actualizar información'):
-    st.experimental_rerun()
+
